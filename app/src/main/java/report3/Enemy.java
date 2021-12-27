@@ -29,9 +29,15 @@ public class Enemy {
     }
 
     //ゲッター
+    /**
+     * フィールドnameのためのゲッター。
+     */
     public String getName(){
         return this.name;
     }
+    /**
+     * フィールドdeadのためのゲッター。
+     */
     public boolean isDead(){
         return this.dead;
     }

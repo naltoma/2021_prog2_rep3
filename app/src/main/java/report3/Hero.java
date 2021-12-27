@@ -29,12 +29,22 @@ public class Hero {
     }
 
     //ゲッター
+    /**
+     * フィールドnameのためのゲッター。
+     * @return this.name を返す。
+     */
     public String getName(){
         return this.name;
     }
+    /**
+     * フィールドdeadのためのゲッター。
+     */
     public boolean isDead(){
         return this.dead;
     }  
+    /**
+     * フィールドhitPointのためのゲッター。
+     */
     public int getHitPoint(){
         return this.hitPoint;
     }  
